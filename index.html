@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="Zh-cn">   <!--使用中文编码-->
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>生日贺卡</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type="text/javascript" src="js/javascript.js" ></script>
+</head>
+<body>
+	<div class="music">
+		<img src="img/music_pointer.png">
+		<img id="music" class="play" src="img/music_disc.png">
+	</div>
+	
+    <div id="add"></div>
+	<div id="sub"></div>
+	
+    <div class="page" id="page1">
+		<div class="bg"></div>
+		<div class="p1_light"></div>
+		<div class="p1_start"><p id="p1_cc">小公举<br>快来点我哦</p></div>
+	</div>
+	<div class="page" id="page2">
+		<div class="p2_bg_loading"></div>
+		<div class="bg"></div>
+		<div class="p2_circle"></div>
+	</div>
+	<div class="page" id="page3">
+		<div class="bg"></div>
+        <div class="p3_title"></div>
+		<div class="p3_blessing"></div>
+	</div>
+	
+    <audio autoplay="true">
+		<source src="audio/music.mp3" type="audio/mpeg">
+	</audio>
+</body>
+</html>
