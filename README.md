@@ -4,4 +4,4 @@
 主要技术：HTML5、CSS3、JavaScript   <br/> 
 主要功能描述：1、利用CSS3实现动画特效。 2、HTML5伪类的应用。 3、使用HTML5的Audio API完成音乐交互。 4、利用JavaScript和伪类制作出绚丽的交互效果。
 <br/>
-手机端截图如下,可以在picture文件夹下预览。
+注：手机端效果可以在picture文件夹下预览，该目录下存放的是手机端运行效果截图。
